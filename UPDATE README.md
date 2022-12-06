@@ -9,7 +9,23 @@ This is an inventory management system. It is designed to:
 6. Alert the responsible individuals when stock levels are not expected to sustain normal operations of the company for an adjustable number of days ahead
 
 # Running and Compiling
-To run and compile the system, the user will need to clone the Github repository and run the main class to get started. This will prompt the user to select an option.
+To run and compile the system, the user will need to clone the Github repository and run the main class "launch.ja" from the folder "launch".
+
+# New Features
+
+1. Two seperate interface
+
+The employer and employees will have two seperate interfaces. The employer will have access to admin interface where they will be able to control what type of new product they will add to the system. Meanwhile, the employee's interface will have functions such as restocking and pricings.
+
+2. Store and Add Price 
+
+This feature allows you store items in the warehouse and add price tags to them. Afterwards, view their status by lisiting and show their avalibility and pricing.  This feature has been added to employee's interface so that when they recieve and store a product, they can attatch the price of the goods. 
+
+
+3. Automatic Supply stock
+
+This feature detect when an item supply is low in stocks and then it automatically add new supply. This feature has been added to the employees. When they take out an item for an order, if the stock of the product goes below a certain threshold, there will be a warning sign and the product will restock itself. 
+
 
 # public_workspace
 This is the directory with folders holding each component.
@@ -85,19 +101,4 @@ private void importExport(String appType, int materialIndex, int amount) throws 
 
 These functions were implemented to improve the quality of the user interface. In other words, to increase the usability of the software. If these features were not implemented, it would be a lot harder fot the user to understand and to use the program.
 
-# Base Plan
-
-The basic plan and layout of the whole system. It shows how the system run.
-
-public void take(): This function is used to take items from the warehouse.
-
-public void returned(): This function is used to restock items.
-
-public int getPrice(): This return the price of an item.
-
-void checkOut(String iname): Check the name of the input item name and match with the corresponding function.
-
-public void receivePrice(): Used to enter the price of an item.
-
-public void listInventory(): Used to show the list of the inventory.
 
