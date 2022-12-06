@@ -9,7 +9,7 @@ This is an inventory management system. It is designed to:
 6. Alert the responsible individuals when stock levels are not expected to sustain normal operations of the company for an adjustable number of days ahead
 
 # Running and Compiling
-To run and compile the system, the user will need to clone the Github repository and run the main class "launch.ja" from the folder "launch".
+To run and compile the system, the user will need to clone the Github repository and run the main class "launch.java" from the folder "launch".
 
 # New Features
 
