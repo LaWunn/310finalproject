@@ -26,6 +26,18 @@ This feature allows you store items in the warehouse and add price tags to them.
 
 This feature detect when an item supply is low in stocks and then it automatically add new supply. This feature has been added to the employees. When they take out an item for an order, if the stock of the product goes below a certain threshold, there will be a warning sign and the product will restock itself. 
 
+public void take(): This function is used to take items from the warehouse.
+
+public void returned(): This function is used to restock items.
+
+public int getPrice(): This return the price of an item.
+
+void checkOut(String iname): Check the name of the input item name and match with the corresponding function.
+
+public void receivePrice(): Used to enter the price of an item.
+
+public void listInventory(): Used to show the list of the inventory.
+
 
 # public_workspace
 This is the directory with folders holding each component.
