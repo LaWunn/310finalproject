@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author kslaw
- *
- */
-module inventory {
-}
